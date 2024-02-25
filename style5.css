@@ -1,0 +1,213 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.screen .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+}
+
+.screen .overlap {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/Background\ -\ Copy.png);
+    background-size: 100% 100%;
+}
+
+.screen .p {
+    position: absolute;
+    top: 352px;
+    left: 60px;
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .black {
+    position: absolute;
+    width: 1280px;
+    height: 350px;
+    top: 370px;
+    left: 0;
+    background-color: #010101;
+}
+
+.screen .mountain {
+    position: absolute;
+    width: 1280px;
+    height: 370px;
+    top: 0;
+    left: 0;
+}
+
+.screen .menu {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 45px;
+    left: 60px;
+}
+
+.screen .text-wrapper-2 {
+    position: absolute;
+    top: 46px;
+    left: 200px;
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .text-wrapper-3 {
+    position: absolute;
+    top: 46px;
+    left: 309px;
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .mountain-logo {
+    position: absolute;
+    width: 52px;
+    height: 30px;
+    top: 40px;
+    left: 614px;
+}
+
+.mountain-logo {
+    width: 52px;
+    height: 30px;
+    background-image: url(./img/Mountain\ Logo\ -\ Copy.png);
+    background-size: 100% 100%;
+}
+
+
+.screen .social {
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    top: 45px;
+    left: 1080px;
+}
+
+.social {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.social .img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+
+.screen .text-wrapper-4 {
+    position: absolute;
+    top: 139px;
+    left: 505px;
+    font-family: "Bebas Kai-Regular", Helvetica;
+    font-weight: 400;
+    color: #ededf5;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.screen .text-wrapper-5 {
+    position: absolute;
+    top: 259px;
+    left: 485px;
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.screen .text-wrapper-6 {
+    position: absolute;
+    top: 296px;
+    left: 928px;
+    background: linear-gradient(180deg, rgba(237, 237, 245, 0.03) 0%, rgba(237, 237, 245, 0.05) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Bebas Kai-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 300px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.screen .video {
+    position: absolute;
+    width: 700px;
+    height: 286px;
+    top: 334px;
+    left: 290px;
+}
+
+.screen .overlap-group {
+    position: relative;
+    width: 800px;
+    height: 386px;
+    top: -40px;
+    left: -50px;
+    background-image: url(./img/Player\ -\ Copy.png);
+    background-size: 100% 100%;
+}
+
+.screen .play {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 143px;
+    left: 360px;
+}
+
+.screen .mouse {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -58px;
+    left: -3943px;
+}
+
+.screen .share {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -48px;
+    left: -3368px;
+}
+

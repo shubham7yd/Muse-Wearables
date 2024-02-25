@@ -1,0 +1,162 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.screen .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 720px;
+}
+
+.screen .overlap-group {
+    position: relative;
+    height: 720px;
+    background-image: url(./img/Background.png);
+    background-size: 100% 100%;
+}
+
+.screen .text-wrapper {
+    position: absolute;
+    top: 279px;
+    left: 60px;
+    font-family: "Bebas Kai-Regular", Helvetica;
+    font-weight: 400;
+    color: #ededf5;
+    font-size: 65px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.screen .div {
+    position: absolute;
+    top: 352px;
+    left: 60px;
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .black {
+    position: absolute;
+    width: 1280px;
+    height: 100px;
+    top: 620px;
+    left: 0;
+    background-color: #010101;
+}
+
+.screen .mountain {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: 0;
+    left: 0;
+}
+
+.screen .menu {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 45px;
+    left: 60px;
+}
+
+.screen .text-wrapper-2 {
+    position: absolute;
+    top: 46px;
+    left: 200px;
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .text-wrapper-3 {
+    position: absolute;
+    top: 46px;
+    left: 309px;
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .mountain-logo {
+    position: absolute;
+    width: 52px;
+    height: 30px;
+    top: 40px;
+    left: 614px;
+}
+
+.mountain-logo {
+    width: 52px;
+    height: 30px;
+    background-image: url(./img/Mountain\ Logo.png);
+    background-size: 100% 100%;
+}
+
+
+.screen .social {
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    top: 45px;
+    left: 1080px;
+}
+
+.screen .mouse {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 630px;
+    left: 625px;
+}
+
+.screen .text-wrapper-4 {
+    position: absolute;
+    top: 601px;
+    left: 623px;
+    transform: rotate(90deg);
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: -0.7px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.screen .share {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 640px;
+    left: 1200px;
+}
+
+.social {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.social .img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}

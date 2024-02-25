@@ -1,0 +1,129 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .screen .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+  }
+  
+  .screen .overlap-group {
+    height: 720px;
+    top: 0;
+    background-image: url(./img/Background\ -\ Copy\ \(3\).png);
+    background-size: 100% 100%;
+    position: absolute;
+    width: 1280px;
+    left: 0;
+  }
+  
+  
+  
+  .screen .menu {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 45px;
+    left: 60px;
+  }
+  
+  .screen .text-wrapper-2 {
+    position: absolute;
+    top: 46px;
+    left: 200px;
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen .text-wrapper-3 {
+    position: absolute;
+    top: 46px;
+    left: 309px;
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen .mountain-logo {
+    position: absolute;
+    width: 52px;
+    height: 30px;
+    top: 40px;
+    left: 614px;
+  }
+  
+  .screen .social {
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    top: 45px;
+    left: 1080px;
+  }
+
+  .social {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.social .img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+  
+  .screen .text-wrapper-4 {
+    position: absolute;
+    top: 189px;
+    left: 505px;
+    opacity: 0;
+    font-family: "Bebas Kai-Regular", Helvetica;
+    font-weight: 400;
+    color: #ededf5;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .screen .text-wrapper-5 {
+    position: absolute;
+    top: 309px;
+    left: 485px;
+    opacity: 0;
+    font-family: "Avenir LT Std-65Medium", Helvetica;
+    font-weight: 500;
+    color: #ededf5;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .screen .div-wrapper {
+    height: 350px;
+    top: 370px;
+    background-color: #010101;
+    position: absolute;
+    width: 1280px;
+    left: 0;
+  }
+  
+  
